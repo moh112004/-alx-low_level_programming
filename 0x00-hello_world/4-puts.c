@@ -2,6 +2,7 @@
 
 /**
  * main - prints  "Programming is like building a multilingual puzzle
+ * the outcome is the sintance
  * return 0 if exited correctly
  */
 
