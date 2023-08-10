@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main : prints with proper grammar,
+ * main : prints the pharse with proper grammar,
  * but the outcome is a piece of art,
  * Return: 0 if exited properly
  */
