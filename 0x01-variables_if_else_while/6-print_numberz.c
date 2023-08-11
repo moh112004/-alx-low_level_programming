@@ -1,13 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - prints single digits between 0 and 10
- * after that prints new line
- * Return: always 0
+ * main - prints all single digit numbers of base 10 starting from 0,
+ * followed by a new line
+ * Return: always 0 
  */
 int main(void)
 {
-printf("%d%d%d%d%d%d%d%d%d%d",0,1,2,3,4,5,6,7,8,9);
-printf("\n");
-return (0);
+	int n;
+
+	for (n = 48; n < 58; n++)
+	{
+		putchar(n);
+	}
+	putchar('\n');
+	return (0);
 }
