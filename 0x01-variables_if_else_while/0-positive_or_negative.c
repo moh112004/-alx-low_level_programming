@@ -7,7 +7,6 @@
  * it prints and executes it
  * Return: Always 0
  */
-
 int main(void)
 {
 	int n;
