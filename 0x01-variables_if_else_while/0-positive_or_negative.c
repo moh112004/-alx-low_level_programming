@@ -1,10 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  * main - give the integer n a random number
  * it prints and executes it
- * Return : Always 0
+ * Return: Always 0
  */
 int main(void)
 {
