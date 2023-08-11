@@ -15,13 +15,13 @@ for (a = 48 ; a < 58 ; a++)
 {
 for (b = 49 ; b < 58 ; b++)
 {
-if (a == b || a > b) 
+if (a == b || a > b)
 {
 continue;
 }
 putchar(a);
 putchar(b);
-if (a == 56 && b == 57) 
+if (a == 56 && b == 57)
 {
 continue;
 }
