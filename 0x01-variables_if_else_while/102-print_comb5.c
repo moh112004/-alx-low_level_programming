@@ -14,7 +14,7 @@ int b;
 int c;
 int d;
 
-for(a = 48 ; a < 58 ; a++)
+for (a = 48 ; a < 58 ; a++)
 {
 for (b = 48 ; b < 57 ; b++)
 {
@@ -31,12 +31,12 @@ putchar (b);
 putchar (' ');
 putchar (c);
 putchar (d);
-if (a == 57 && b == 56 && c ==57 && d == 57)
+if (a == 57 && b == 56 && c == 57 && d == 57)
 {
 continue;
 }
 putchar (',');
-putchar (' ');	
+putchar (' ');
 }
 }
 }
