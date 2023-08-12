@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - prints digits from 0 to 9
+ * main - prints digits tow tow from 00 to 99
+ * prints white space between tow tow integers
  * prints ,
  * prints white space
  * after that prints new line
@@ -25,6 +26,16 @@ for (d = 48 ; d < 58 ; d++)
 if (a == c && b == d)
 {
 continue;
+}
+if(a>c)
+{
+continue;
+}
+if(a==c)
+{
+if(b>d){
+continue;
+}
 }
 putchar (a);
 putchar (b);
