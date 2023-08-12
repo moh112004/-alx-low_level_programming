@@ -27,13 +27,14 @@ if (a == c && b == d)
 {
 continue;
 }
-if(a>c)
+if (a > c)
 {
 continue;
 }
-if(a==c)
+if (a == c)
 {
-if(b>d){
+if (b > d)
+{
 continue;
 }
 }
@@ -52,6 +53,6 @@ putchar (' ');
 }
 }
 }
-putchar('\n');
+putchar ('\n');
 return (0);
 }
