@@ -14,7 +14,7 @@ int a;
 int b;
 int c;
 int d;
-  
+
 for (a = 48 ; a < 58 ; a++)
 {
 for (b = 48 ; b < 58 ; b++)
