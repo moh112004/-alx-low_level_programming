@@ -10,7 +10,7 @@
  */
 int main(void)
 {
-int a,b,c,d;
+int a, b, c, d;
 
 for (a = 48 ; a < 58 ; a++)
 {
@@ -21,15 +21,15 @@ for (c = 48 ; c < 58 ; c++)
 for (d = 48 ; d < 58 ; d++)
 {
 if (a == c && b == d)
-  continue;
+continue;
 if (a > c)
-  continue;
+continue;
 if (a == c)
-  if (b > d)
-    continue;
+if (b > d)
+continue;
 putchar (a); putchar (b); putchar (' '); putchar (c); putchar (d);
 if (a == 57 && b == 56 && c == 57 && d == 57)
-  continue;
+continue;
 putchar (','); putchar (' ');
 }
 }
