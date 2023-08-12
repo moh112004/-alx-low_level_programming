@@ -21,26 +21,16 @@ for (c = 48 ; c < 58 ; c++)
 for (d = 48 ; d < 58 ; d++)
 {
 if (a == c && b == d)
-{
-continue;
-}
+  continue;
 if (a > c)
-{
-continue;
-}
+  continue;
 if (a == c)
-{
-if (b > d)
-{
-continue;
-}
-}
-putchar (a);putchar (b);putchar (' ');putchar (c);putchar (d);
+  if (b > d)
+    continue;
+putchar (a); putchar (b); putchar (' '); putchar (c); putchar (d);
 if (a == 57 && b == 56 && c == 57 && d == 57)
-{
-continue;
-}
-putchar (',');putchar (' ');
+  continue;
+putchar (','); putchar (' ');
 }
 }
 }
