@@ -15,7 +15,3 @@ _putchar(a);
 }
 _putchar('\n');  
 }
-int main() {
-print_alphabet();
-return 0;
-}
