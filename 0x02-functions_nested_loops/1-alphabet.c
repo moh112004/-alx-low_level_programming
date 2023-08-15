@@ -7,8 +7,11 @@
 * return 0
 */
 void print_alphabet() {
-for (int a = 97; a <= 122; a++) {
+char a = 'a';
+
+while ( a <='z') {
 _putchar(a);
+  a++;
 }
 _putchar('\n');  
 }
