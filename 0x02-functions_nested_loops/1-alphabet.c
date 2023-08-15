@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /*
 * print_alphabet - prints alphabet in lower case from a to z
@@ -8,9 +8,9 @@
 */
 void print_alphabet() {
 for (int a = 97; a <= 122; a++) {
-putchar(a);
+_putchar(a);
 }
-putchar('\n');  
+_putchar('\n');  
 }
 int main() {
 print_alphabet();
