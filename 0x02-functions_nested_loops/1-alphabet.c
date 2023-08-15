@@ -7,12 +7,12 @@
 * return 0
 */
 void print_alphabet() {
-    for (int a = 97; a <= 122; a++) {
-        putchar(a);
-    }
-    putchar('\n');  
+for (int a = 97; a <= 122; a++) {
+putchar(a);
+}
+putchar('\n');  
 }
 int main() {
-    print_alphabet();
-    return 0;
+print_alphabet();
+return 0;
 }
