@@ -6,15 +6,14 @@
 * retur 0
 */
 void print_alphabet_x10() {
-for (int x = 0 ; x < 10 ; x++){
-    for (int a = 97; a <= 122; a++) {
-        putchar(a);
-    }
-    putchar('\n');  
+int x = 0 ;
+int a = 97;
+while ( x < 10 ){
+while ( a <= 122) {
+putchar(a);
 }
+putchar('\n'); 
+a++;
 }
-
-int main( void ){
-    print_alphabet_x10();
-    return 0;
+x++;
 }
