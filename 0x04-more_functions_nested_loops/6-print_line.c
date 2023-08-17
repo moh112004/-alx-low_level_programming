@@ -2,7 +2,7 @@
 /**
 *print_line - prints a straight line
 *@n:parameter
-*Return:returns nothing
+*Return:nothing
 */
 void print_line(int n)
 {
