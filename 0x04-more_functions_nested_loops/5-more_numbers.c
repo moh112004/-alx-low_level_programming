@@ -2,7 +2,7 @@
 /**
 *more_numbers - prints numbers to 14
 *
-*Return: returns nothing
+*Return: nothing
 */
 void more_numbers(void)
 {
