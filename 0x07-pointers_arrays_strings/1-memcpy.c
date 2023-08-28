@@ -6,6 +6,7 @@
 *  @a: memory area bytes be cpoied to
 *  @b: memory area bytes be copied from
 *  @c: the number of bytes to copy
+*  Return: pointer of a
 */
 char *_memcpy(char *a, char *b, unsigned int c)
 {
