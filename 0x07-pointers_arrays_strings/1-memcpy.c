@@ -13,5 +13,5 @@ unsigned int i;
 
 for ( i = 0; i < c; i++)
 a[i] = b[i];
-return a;
+return (a);
 }
