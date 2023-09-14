@@ -4,9 +4,9 @@
 /**
  * array_iterator - function runs a function on evrey element
  * in the array
- * @array: the array
- * @size: the size of the array
- * @action: the function
+ * @array: array to iterate over
+ * @size: size of the array
+ * @action: pointer to function used
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
