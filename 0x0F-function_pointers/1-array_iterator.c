@@ -2,15 +2,15 @@
 #include "function_pointers.h"
 
 /**
- * array_iterator - function runs a function on evrey
- * element in the array
+ * array_iterator - function runs a function on evrey element
+ * in the array
  * @array: the array
  * @size: the size of the array
  * @action: the function
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-    unsigned int x = 0;
+    unsigned int x;
 
     if(!array || !action)
         return;
