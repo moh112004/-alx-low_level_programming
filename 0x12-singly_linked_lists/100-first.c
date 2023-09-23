@@ -2,6 +2,7 @@
 
 /**
  * first - prints a sentence before the main
+ *
  */
 void first(void)
 {
