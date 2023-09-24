@@ -25,6 +25,8 @@ if (n < lens2)
 str = malloc(sizeof(char) * (lens1 + n + 1));
 else
 str = malloc(sizeof(char) * (lens1 + lens2 + 1));
+if (!str)
+return (NULL);
 for (x = 0; x < lens1; x++)
 str[x] = s1[x];
 if (n > lens2)
@@ -33,8 +35,5 @@ str[y + lens1] = s2[y];
 else
 for (y = 0; y < n; y++)
 str[y + lens1] = s2[y];
-if (!str)
-return (NULL);
-else
 return (str);
 }
