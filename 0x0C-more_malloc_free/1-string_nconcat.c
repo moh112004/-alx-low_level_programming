@@ -35,5 +35,6 @@ str[y + lens1] = s2[y];
 else
 for (y = 0; y < n; y++)
 str[y + lens1] = s2[y];
+str[y + lens1 + 1] = '\0';
 return (str);
 }
