@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * *_calloc: allocate memory for an array
+ * *_calloc - allocate memory for an array
  * @nmemb: count of elements
  * @size: the size of each elemnt
  * Return: returns the adress of the allocated memory
